@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Roboto";
+}
+
+.logo {
+    width: 100%;
+    max-width: 40px;
+    background-color: linear-gradient #1859bb, #4874c5;
+}
+
+.logo img {
+    width: 40px;
+}
+
+h1 {
+    font-size: 20px;
+    margin-left: 100px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.botao-header {
+    background: linear-gradient #1859bb, #4874c5;
+    color: white;
+    width: 60px;
+}
+
+.botao-azul {
+    background-color: #1663d6;
+    color: white;
+    width: 60px;
+}
